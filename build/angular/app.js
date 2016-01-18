@@ -14,9 +14,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-var MainApp = angular.module('MainApp', []);
+var MainApp = angular.module('HTML5App', ['ui.bootstrap', 'navigationCtrl']);
 
-/** Intercept POST requests, convert to standard form encoding */
+// Intercept POST requests, convert to standard form encoding
 MainApp.config([ '$httpProvider', function($httpProvider) {
     $httpProvider.defaults.headers.post["Content-Type"] = "application/x-www-form-urlencoded";
     $httpProvider.defaults.transformRequest.unshift(function(data, headersGetter) {
