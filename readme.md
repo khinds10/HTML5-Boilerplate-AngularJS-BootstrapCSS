@@ -1,4 +1,4 @@
-HTML5 Boilerplate - AngularJS / Bootstrap CSS Project
+## HTML5 Boilerplate - AngularJS / Bootstrap CSS Project
 
 To install dependancies and build:
 
